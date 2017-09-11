@@ -1,4 +1,5 @@
 # basic_renumber
+## Description
 Renumbers BASIC programs (yeah, those with the line numbers)
 
 This is a very simple NodeJS (javascript) program that allows to renumber BASIC programs (contained in text files like .bas or anything) ... oh yeah ... it's not optimized at all ... it just works ... that's all...
@@ -14,8 +15,16 @@ The script will read a text file (containing one BASIC line beginning with an in
 
 Not supported: GOTO/GOSUB to a VARIABLE. Like: GOTO MY_VAR.
 
-Usage: `node path/to/renumber.js path/to/basic/file [path/to/new/basic/file] [line_increment]`
+## Usage: 
+Obviously you need NodeJS first. The good news is that it's available for Windows/Mac/Linux. See https://nodejs.org/ for installation instructions.
+
+Once NodeJS is installed, run a command-line/prompt/whatever-you-call-it and type something like 
+
+`node path/to/renumber.js path/to/basic/file [path/to/new/basic/file] [line_increment]`
 
 It's as simple as that...
+
+If you have requests or suggestions, don't hesitate ...
+
 
 (c) 2017 tilleul - The License is "Do What The F*ck You Want" (in case you're wondering the asterisk is a "U")
